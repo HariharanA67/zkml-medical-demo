@@ -1,0 +1,22 @@
+﻿# Python / virtual‑env artefacts
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+env/
+venv/
+*.egg-info/
+
+# Secrets & credentials
+.env
+*.pem
+*.key
+
+# Large data & generated artefacts (keep in .gitkeep if you need the folder)
+data/raw/
+build/
+*.sqlite
+*.sqlite3
+
+# Streamlit cache
+.streamlit/

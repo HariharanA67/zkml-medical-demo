@@ -1,0 +1,20 @@
+{
+  "low_risk": {
+    "age": 29,
+    "systolic_bp": 130,
+    "cholesterol": 204,
+    "max_heart_rate": 202
+  },
+  "borderline": {
+    "age": 67,
+    "systolic_bp": 106,
+    "cholesterol": 223,
+    "max_heart_rate": 142
+  },
+  "high_risk": {
+    "age": 58,
+    "systolic_bp": 132,
+    "cholesterol": 458,
+    "max_heart_rate": 69
+  }
+}

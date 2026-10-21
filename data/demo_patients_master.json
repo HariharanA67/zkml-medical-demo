@@ -1,0 +1,42 @@
+{
+  "low_risk_athlete": {
+    "name": "Patient Alpha (Young & Fit)",
+    "age": 29,
+    "systolic_bp": 130,
+    "cholesterol": 204,
+    "max_heart_rate": 202,
+    "expected": "LOW_RISK_HEALTHY"
+  },
+  "borderline_metabolic": {
+    "name": "Patient Beta (Metabolic / Elevated Chol)",
+    "age": 58,
+    "systolic_bp": 136,
+    "cholesterol": 319,
+    "max_heart_rate": 152,
+    "expected": "HIGH_RISK_ANOMALY"
+  },
+  "borderline_elderly": {
+    "name": "Patient Gamma (Elderly / Borderline)",
+    "age": 67,
+    "systolic_bp": 106,
+    "cholesterol": 223,
+    "max_heart_rate": 142,
+    "expected": "HIGH_RISK_ANOMALY"
+  },
+  "high_risk_bradycardia": {
+    "name": "Patient Delta (Severe Low Max-HR & Elderly)",
+    "age": 67,
+    "systolic_bp": 120,
+    "cholesterol": 237,
+    "max_heart_rate": 71,
+    "expected": "HIGH_RISK_ANOMALY"
+  },
+  "high_risk_hyperlipidemia": {
+    "name": "Patient Epsilon (Extreme High Cholesterol & Low HR)",
+    "age": 58,
+    "systolic_bp": 132,
+    "cholesterol": 458,
+    "max_heart_rate": 69,
+    "expected": "HIGH_RISK_ANOMALY"
+  }
+}
